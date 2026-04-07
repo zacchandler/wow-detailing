@@ -148,7 +148,7 @@ export default function BeforeAfter() {
         >
           {/* AFTER image (bottom layer - clean car, revealed by dragging) */}
           <img
-            src="/images/car_should_be_202603301013.png"
+            src="/wow-detailing/images/car_should_be_202603301013.png"
             alt="After detailing — clean McLaren"
             className="absolute inset-0 w-full h-full object-cover pointer-events-none"
             draggable={false}
@@ -156,7 +156,7 @@ export default function BeforeAfter() {
 
           {/* BEFORE image (top layer - dirty car, clipped away by dragging) */}
           <img
-            src="/images/dirty.png"
+            src="/wow-detailing/images/dirty.png"
             alt="Before detailing — dirty McLaren"
             className="absolute inset-0 w-full h-full object-cover pointer-events-none"
             style={{
